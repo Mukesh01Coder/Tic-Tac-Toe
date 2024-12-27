@@ -57,3 +57,32 @@ The first player to get their symbol over a complete row OR a complete column OR
 - Bot Player
   - Difficulty Level
 ---
+# Revision
+1. Class Diagram
+- Requirements - nouns, attributes.
+- Imagined the game play/requirements
+2. Write all the models.
+3. Package structure
+- MVC.
+- Models, Controllers,
+- Service
+- Strategies
+- DTOs.
+4. Clients. Public facing APIs.
+- /startGame
+  - Request:
+    - List of players
+    - Board dimensions
+    - Winning Strategies
+  - Response:
+    - Game (DTO object if needed)
+- /makeNextMove
+  - Request: Move?
+  - Response: GameState
+- /displayBoard
+- /undoLastMove
+- /getGameState
+- /getWinner
+5. Builder design pattern - Game
+6. Strategy design pattern.
+---
