@@ -1,0 +1,8 @@
+# Ensure all text files use LF in the repo and convert to CRLF on Windows
+*.txt text eol=crlf
+
+# Prevent conversion for XML files
+*.xml -text
+
+# Set all files to use LF (Unix-style)
+* text=auto eol=lf
